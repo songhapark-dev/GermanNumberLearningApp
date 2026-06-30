@@ -1,0 +1,52 @@
+# ==========================================
+# 1. Xcode User Settings & Cache (🚨 필수 방어)
+# ==========================================
+# 유저 개인의 화면 레이아웃, 열어본 파일 기록 등 (공유 금지)
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+
+# ==========================================
+# 2. Build Products & Derived Data
+# ==========================================
+# 빌드할 때 생성되는 임시 파일 및 시뮬레이터 실행 파일들
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ==========================================
+# 3. Architecture & Project Structure
+# ==========================================
+# Xcode 프로젝트 내부의 유저별 개인 설정 파일 방어
+.caache/
+.analytics/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# ==========================================
+# 4. Dependency Managers (의존성 관리 도구)
+# ==========================================
+# CocoaPods (포드를 쓰신다면 라이브러리 소스는 제외하고 Podfile만 공유)
+Pods/
+CMakeLists.txt
+CMakeCache.txt
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager (SPM)
+# 라이브러리 체크아웃 캐시 및 빌드 결과물 제외
+.build/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.swiftpm/xcode/xcshareddata/
+
+# ==========================================
+# 5. OS & Security (맥북 기본 방어 세트)
+# ==========================================
+.DS_Store
+._*
+.env
